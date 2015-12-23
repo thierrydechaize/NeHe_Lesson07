@@ -1,0 +1,8 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=04B7FEE9
+eax=04B7FEC0 ebx=00025000 ecx=00000003 edx=00005000 esi=0046AFFF edi=04BB9554
+ebp=000000AB esp=03BDA80C program=C:\src\OpenGL\Lesson07\binCYGWIN\Debug\Lesson07.exe, pid 6936, thread unknown (0x18BC)
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+1306522 [unknown (0x18BC)] Lesson07 6936 exception::handle: Exception: STATUS_ACCESS_VIOLATION
+1307086 [unknown (0x18BC)] Lesson07 6936 exception::handle: Error while dumping state (probably corrupted stack)
